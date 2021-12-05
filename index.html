@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        
+
+        <img src="yt-logo.png" class="logo">
+
+        <div class="search-box">
+            <input type="text" class="search-box" placeholder="search" id="inputbox">
+            <button class="search-btn" onclick="searchVideo()"><i class="fas fa-search"></i></button>
+            <div id="mic_holder"><i class="fas fa-microphone fa-2x black "></i></div>
+        </div>
+
+        <div class="user-options">
+            <img src="" class="icon" >
+            <img src="" class="icon" >
+            <img src="" class="icon" >
+        </div>
+
+        <div class="nav_list">
+            <li><i class="fas fa-video fa-2x  "></i></li>
+            <li><i class="fas fa-th fa-2x  "></i></li>
+            <li><i class="fas fa-bell fa-2x  "></i></i></li>
+            <li><i class="fas fa-microphone fa-2x "></i></li>
+        </div>
+    </nav>
+
+    <div class="side_nav">
+        <li><i class="fas fa-home"></i> <h3>Home</h3></li>
+        <li><i class="fas fa-compass"></i> <h3>Explore</h3></li>
+        <li><i class="fas fa-compass"></i> <h3>Subscription</h3></li>
+
+        <div class="line"></div>
+
+        <li><i class="fab fa-youtube-square"></i> <h3>Library</h3></li>
+        <li><i class="fas fa-history"></i> <h3>History</h3></li>
+        <li><i class="fab fa-youtube-square"></i> <h3>Your vedios</h3></li>
+        <li><i class="fas fa-clock"></i> <h3>Watch later</h3></li>
+        <li><i class="fas fa-thumbs-up"></i> <h3>Liked vedio</h3></li>        
+
+        <div class="line"></div>
+    </div>
+
+
+    <div id="container">
+
+        <div id="video-div"></div>
+
+    </div>
+    
+
+
+
+
+    
+</body>
+</html>
+<script src="app.js"></script>
